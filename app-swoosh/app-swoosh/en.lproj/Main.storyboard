@@ -50,8 +50,8 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="FIND A TEAM IN YOUR CITY &amp; DOMINATE THE LEAGUE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgB-qS-cvo">
-                                <rect key="frame" x="57.5" y="287" width="260" height="81"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIND A TEAM IN YOUR CITY &amp; DOMINATE THE LEAGUE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgB-qS-cvo">
+                                <rect key="frame" x="57.5" y="308.5" width="260" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="V5E-Nd-DFh"/>
                                 </constraints>
@@ -60,8 +60,8 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmt-bt-6LL">
-                                <rect key="frame" x="57.5" y="215" width="260" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ON GOING ALL OUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gmt-bt-6LL">
+                                <rect key="frame" x="57.5" y="213.5" width="260" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="LYl-y3-gkc"/>
                                 </constraints>
@@ -80,6 +80,8 @@
                             <constraint firstItem="1i2-47-2AZ" firstAttribute="top" secondItem="UMd-oj-dfm" secondAttribute="bottom" constant="20" id="Qzz-cj-Z4q"/>
                             <constraint firstItem="9ih-xR-btT" firstAttribute="top" secondItem="S7B-vn-RWE" secondAttribute="bottom" constant="85" id="WbR-Ss-UVZ"/>
                             <constraint firstItem="9hB-Vr-6Iq" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="X1T-1L-UkA"/>
+                            <constraint firstItem="IgB-qS-cvo" firstAttribute="top" secondItem="gmt-bt-6LL" secondAttribute="bottom" constant="60" id="ZoY-lm-dkI"/>
+                            <constraint firstItem="gmt-bt-6LL" firstAttribute="top" secondItem="9ih-xR-btT" secondAttribute="bottom" id="dmk-CS-wB3"/>
                             <constraint firstItem="UMd-oj-dfm" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="eBr-ub-9Cb"/>
                             <constraint firstItem="IgB-qS-cvo" firstAttribute="width" secondItem="gmt-bt-6LL" secondAttribute="width" id="hPx-dt-1Ol"/>
                             <constraint firstItem="gmt-bt-6LL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ioD-XJ-05x"/>
