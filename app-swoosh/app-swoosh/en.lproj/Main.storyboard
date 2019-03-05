@@ -13,7 +13,7 @@
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Welcome" id="BYZ-38-t0r" customClass="ViewController" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Welcome" id="BYZ-38-t0r" customClass="WelcomeVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F48-Bj-Uy6"/>
                         <viewControllerLayoutGuide type="bottom" id="1i2-47-2AZ"/>
@@ -107,7 +107,7 @@
         <!--Desired-->
         <scene sceneID="B7a-a2-zck">
             <objects>
-                <viewController title="Desired" id="hKQ-Ns-MR0" sceneMemberID="viewController">
+                <viewController title="Desired" id="hKQ-Ns-MR0" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mjN-xw-jy9"/>
                         <viewControllerLayoutGuide type="bottom" id="ZUn-9n-IfY"/>
@@ -116,7 +116,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeagueBG" translatesAutoresizingMaskIntoConstraints="NO" id="wdX-aM-Mib">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="desiredLeagueBG" translatesAutoresizingMaskIntoConstraints="NO" id="wdX-aM-Mib" customClass="Lea">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="iWZ-Hs-oo9">
@@ -233,7 +233,7 @@
         <!--Biginner-->
         <scene sceneID="i6W-Pz-3mw">
             <objects>
-                <viewController title="Biginner" id="JE7-pz-125" sceneMemberID="viewController">
+                <viewController title="Biginner" id="JE7-pz-125" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YK5-Aq-NCL"/>
                         <viewControllerLayoutGuide type="bottom" id="egw-pf-XXd"/>
