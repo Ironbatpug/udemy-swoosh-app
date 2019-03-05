@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="-177" y="95"/>
         </scene>
-        <!--Desired-->
+        <!--LeagueVC-->
         <scene sceneID="B7a-a2-zck">
             <objects>
-                <viewController title="Desired" id="hKQ-Ns-MR0" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LeagueVC" id="hKQ-Ns-MR0" customClass="LeagueVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mjN-xw-jy9"/>
                         <viewControllerLayoutGuide type="bottom" id="ZUn-9n-IfY"/>
@@ -199,6 +199,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="hKQ-Ns-MR0" eventType="touchUpInside" id="Bqz-6a-wIF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -220,16 +223,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="yyt-lW-V0f" secondAttribute="trailing" id="x4Z-AD-Oee"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="JE7-pz-125" kind="show" identifier="skillVCSegue" id="baW-Vw-pyN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z8X-xu-gb5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="z1U-Is-5Pq" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="708" y="94.902548725637189"/>
         </scene>
-        <!--Biginner-->
+        <!--Skill VC-->
         <scene sceneID="i6W-Pz-3mw">
             <objects>
-                <viewController title="Biginner" id="JE7-pz-125" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Skill VC" id="JE7-pz-125" customClass="SkillVC" customModule="app_swoosh" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YK5-Aq-NCL"/>
                         <viewControllerLayoutGuide type="bottom" id="egw-pf-XXd"/>
